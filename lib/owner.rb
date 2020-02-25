@@ -5,9 +5,10 @@ class Owner
   
   @@all = []
   
-  def initialize(name, species = "human")
+  def initialize(name, species = "human",cat_name)
     @name = name
     @species = species
+    @cat_name = cat_name
     save
   end
   

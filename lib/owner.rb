@@ -8,7 +8,7 @@ class Owner
   def initialize(name, species = "human")
     @name = name
     @species = species
-    @cat_name = cat_name
+    
     save
   end
   

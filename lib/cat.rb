@@ -17,11 +17,6 @@ class Cat
       @@all
     end
     
-    def buy_cat(name)
-      
-      @@all.each {|cat| cat == self}
-      
-     end 
     
     def save
       @@all << self

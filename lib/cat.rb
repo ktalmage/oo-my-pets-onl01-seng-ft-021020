@@ -17,9 +17,9 @@ class Cat
       @@all
     end
     
-    def buy_cat(name,owner,mood)
+    def buy_cat(name)
       
-      self.new(name,owner,mood)
+      @@all.each {|cat| cat == self}
       
      end 
     

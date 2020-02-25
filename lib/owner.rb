@@ -52,7 +52,7 @@ class Owner
    end
    
    def buy_cat(name)
-     self.cats.count
+     cats.owner.count
     
     end
 end

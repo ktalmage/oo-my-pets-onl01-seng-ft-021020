@@ -17,7 +17,11 @@ class Cat
       @@all
     end
     
-    
+    def buy_cat(name,owner,mood)
+      
+      self.new(name,owner,mood)
+      
+     end 
     
     def save
       @@all << self

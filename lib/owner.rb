@@ -53,6 +53,6 @@ class Owner
    
    def buy_cat(name)
      self.cats.count
-     binding.pry
+    
     end
 end

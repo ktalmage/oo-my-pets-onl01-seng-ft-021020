@@ -5,7 +5,7 @@ class Owner
   
   @@all = []
   
-  def initialize(name, species = "human",cat_name)
+  def initialize(name, species = "human")
     @name = name
     @species = species
     @cat_name = cat_name

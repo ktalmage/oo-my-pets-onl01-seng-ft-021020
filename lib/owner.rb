@@ -52,7 +52,7 @@ class Owner
    
    def buy_cat(cat_name,owner,mood)
      
-     Cat.new(cat_name,owner,mood)
+     Cat.new
      
    end  
 end
